@@ -1,0 +1,32 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Namaste React",
+  "homepage": "https://github.com/sahalsemeer/namaste-react#readme",
+  "bugs": {
+    "url": "https://github.com/sahalsemeer/namaste-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahalsemeer/namaste-react.git"
+  },
+  "license": "ISC",
+  "author": "Sahal Semeer",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel test.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.9.1",
+    "@tailwindcss/postcss": "^4.1.14",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.22.0",
+    "tailwindcss": "^4.1.14"
+  }
+}
