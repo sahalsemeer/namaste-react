@@ -20,6 +20,7 @@ const RestrauntCard = ({ resData }) => {
       <h5>{cuisines.join(", ")}</h5>
       <h5>{avgRating} stars</h5>
       <h5 >{deliveryTime} mins</h5>
+      <h1>test</h1>
     </div>
   );
 };
