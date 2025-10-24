@@ -43,6 +43,15 @@ it is the process that remove our unwanted codes in the production phase.
 - Integrate Testing
 - End to End Testing(E2E Testing)
 
+# Setting up Testing
+ - install react tesing librarry
+ - install jest framework
+ - install babel dependencies(which are required when we needed jest)
+ - configure babe
+ - config parcel for removing deafault babel transplitaion
+ - jest config- npx jest --init@latest
+ - install jsdom library
+ - install @babel/preset-react - to make JSX work in the test
 
 
 data.cards.card[2].card.info.

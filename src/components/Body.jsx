@@ -10,8 +10,10 @@ const Body = () => {
   const onlineStatus = useOnlineStatus();
   const [restroData, setRestroData] = useState(restaurantPreviewData);
   const [filertedData, setFilteredData] = useState(restaurantPreviewData);
-  const RestroCardPromoted = withPromotedLabel(RestrauntCard);
+ 
   const data = useContext(UserContext)
+
+  const RestroCardPromoted = withPromotedLabel(RestrauntCard);
 
   if (onlineStatus === false) {
     return <div>You are Offline!</div>;
