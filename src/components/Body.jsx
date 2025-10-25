@@ -23,7 +23,8 @@ const Body = () => {
     <div className="body">
       <div className="flex justify-center p-5">
         <div className="top">
-          <button
+          <button 
+            data-testid='filter'
             className="w-[200px] p-[15px] m-[5px] hover:bg-red-900 rounded text-black cursor-pointer"
             onClick={() => {
               filertedData === restroData

@@ -15,7 +15,8 @@
   "type": "commonjs",
   "scripts": {
     "test": "jest",
-    "start": "npx parcel test.html"
+    "start": "npx parcel test.html",
+    "watch-test":"jest --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.28.5",

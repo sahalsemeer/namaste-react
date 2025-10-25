@@ -10,7 +10,7 @@ const RestrauntCard = ({ resData }) => {
     }
   // console.log(cloudinaryImageId);
   return (
-    <div className="m-4 p-[30px] w-[300px] h-[400px] bg-white-100 rounded border-1-gray">
+    <div data-testid="restoCard" className="m-4 p-[30px] w-[300px] h-[400px] bg-white-100 rounded border-1-gray">
         {/* {if the restro === promoted add <label></label>} */}
       <img
         className="w-[100%] h-[70%] mb-[15px]"
